@@ -4,6 +4,8 @@
 *.dll
 *.so
 *.dylib
+/Docker/mysql/data/*
+!/Docker/mysql/data/.gitkeep
 
 # Test binary, built with `go test -c`
 *.test
